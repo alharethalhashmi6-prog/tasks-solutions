@@ -1,4 +1,6 @@
-﻿namespace task2_solutions
+﻿using System.Linq.Expressions;
+
+namespace task2_solutions
 {
     internal class Program
     {
@@ -125,6 +127,45 @@
             {
                 Console.WriteLine("An error occurred: " + ex.Message);
             }*/
+
+            //----------------------------------------------------------
+
+
+
+            // task 7
+
+            /*
+            bool exit = true;
+
+            while (exit)
+            {
+                try
+                {
+                    Console.Write("Pls entre a number: ");
+                    int n = Convert.ToInt32(Console.ReadLine());
+                    switch (n)
+                    {
+                        case 1:
+                            Console.WriteLine("Hello");
+                            break;
+                        case 2:
+                            Console.WriteLine("good morning");
+                            break;
+                        case 3:
+                            Console.WriteLine("Exit");
+                            exit = false;
+                            break;
+                        default:
+                            Console.WriteLine("You entered a number other than 1, 2, or 3.");
+                            break;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("error");
+                }
+            }
+            */
 
             //----------------------------------------------------------
         }
