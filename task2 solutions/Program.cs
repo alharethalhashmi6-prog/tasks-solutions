@@ -39,6 +39,19 @@
 
             //----------------------------------------------------------
 
+            /*
+            // task 3
+
+            Console.Write("Enter a number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int multi = 1;
+            for (int i = 1; i <= 10; i++)
+            {
+                multi = n * i;
+                Console.WriteLine(n + " x " + i + " = " + multi);
+            }
+            */
+
         }
     }
 }
