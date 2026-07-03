@@ -21,6 +21,24 @@
             }
             */
 
+            //----------------------------------------------------------
+
+            /*
+            // task 2 
+
+            Console.Write("Enter a number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+            for (int i = 1; i<=n; i++)
+            {
+                sum += i;
+
+            }
+            Console.WriteLine("The sum of the fctorial of "+n+" is: "+sum);
+            */
+
+            //----------------------------------------------------------
+
         }
     }
 }
