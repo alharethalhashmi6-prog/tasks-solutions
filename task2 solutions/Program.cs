@@ -68,6 +68,42 @@
 
             Console.WriteLine("Correct password, welcome!");
             */
+
+
+            //----------------------------------------------------------
+
+            /*
+            // task 5
+
+            Console.Write("Pls entre the secret code: ");
+            int code = Convert.ToInt32(Console.ReadLine());
+            int sc = 50;
+            int i = 1;
+            do
+            {
+                if (code > sc)
+                {
+                    Console.Write("Too high, pls try again: ");
+                    code = Convert.ToInt32(Console.ReadLine());
+                    i++;
+                }
+                else if (code < sc)
+                {
+                    Console.Write("Too low, pls try again: ");
+                    code = Convert.ToInt32(Console.ReadLine());
+                    i++;
+                }
+                else
+                {
+                    Console.WriteLine("Excellent :) ");
+                }
+            } while (code != sc);
+
+            Console.WriteLine("Correct code, welcome! ");
+            Console.WriteLine("You guessed the code in " + i + " attempts.");
+            */
+
+            //----------------------------------------------------------
         }
     }
 }
