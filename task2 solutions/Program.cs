@@ -52,6 +52,22 @@
             }
             */
 
+            //----------------------------------------------------------
+
+            /*
+            // task 4
+
+            Console.Write("pls entre your password: ");
+            String p = Console.ReadLine();
+            string password = "Spark2026";
+            while ( p != password)
+            {
+                Console.Write("Incorrect password, pls try again: ");
+                p = Console.ReadLine();
+            }
+
+            Console.WriteLine("Correct password, welcome!");
+            */
         }
     }
 }
