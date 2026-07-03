@@ -104,6 +104,29 @@
             */
 
             //----------------------------------------------------------
+
+            /*
+            // task 6 
+
+            Console.Write("Pls entre the first number: ");
+            double n1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Pls entre the second number: ");
+            double n2 = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                double dev = n1 / n2;
+                Console.WriteLine("the result of " + n1 + " / " + n2 + " = " + dev);
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Error: Division by zero is not allowed.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred: " + ex.Message);
+            }*/
+
+            //----------------------------------------------------------
         }
     }
 }
