@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using Microsoft.VisualBasic.FileIO;
+using System.Linq.Expressions;
 
 namespace task2_solutions
 {
@@ -238,6 +239,122 @@ namespace task2_solutions
             */
 
             //----------------------------------------------------------
+
+
+            // task 10
+
+            /*
+
+            Console.Write("Wellcome, Pls entre your password: ");
+            int password = Convert.ToInt32(Console.ReadLine());
+            int code = 1221;
+            int t = 1;
+            int balance = 100;
+            int option = 0;
+            do
+            {
+                try
+                {
+                    if (t >= 3)
+                    {
+                        Console.WriteLine("Card Blocked");
+                        break;
+                    }
+                    else if (password != code)
+                    {
+                        Console.Write("Incorrect password, pls try again: ");
+                        password = Convert.ToInt32(Console.ReadLine());
+                        t++;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Correct password, welcome!");
+                        Console.WriteLine("Your balance is: " + balance);
+                        while (true && (option != 4))
+                        {
+                            Console.WriteLine("1. Deposit");
+                            Console.WriteLine("2. Withdraw");
+                            Console.WriteLine("3. Check Balance");
+                            Console.WriteLine("4. Exit");
+                            Console.Write("Pls entre an option: ");
+                            option = Convert.ToInt32(Console.ReadLine());
+
+                            switch (option)
+                            {
+                                case 1:
+                                   
+                                        Console.Write("Pls entre the amount to deposit: ");
+                                        int depositAmount = Convert.ToInt32(Console.ReadLine());
+                                    try
+                                    {
+                                        if (depositAmount <= 0)
+                                        {
+                                            Console.WriteLine("Deposit amount must be positive.");
+                                        }
+                                        else
+                                        {
+                                            balance += depositAmount;
+                                            Console.WriteLine("Deposit successful. New balance: " + balance);
+                                        }
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        Console.WriteLine("An error occurred: " + ex.Message);
+                                    }
+                                    break;
+
+                                case 2:
+                                    
+                                        Console.Write("Pls entre the amount to withdraw: ");
+                                        int withdrawAmount = Convert.ToInt32(Console.ReadLine());
+                                    try
+                                    {
+                                        if (withdrawAmount <= 0)
+                                        {
+                                            Console.WriteLine("Withdraw amount must be positive.");
+                                        }
+                                        else if (withdrawAmount > balance)
+                                        {
+                                            Console.WriteLine("Insufficient balance.");
+                                        }
+                                        else
+                                        {
+                                            balance -= withdrawAmount;
+                                            Console.WriteLine("Withdraw successful. New balance: " + balance);
+                                        }
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        Console.WriteLine("An error occurred: " + ex.Message);
+                                    }
+                                    break;
+
+                                case 3:
+                                    Console.WriteLine("Your current balance is: " + balance);
+                                    break;
+                                case 4:
+                                    Console.WriteLine("Exiting. Thank you for using our service.");
+                                    break;
+                                default:
+                                    Console.WriteLine("Invalid option. Please try again.");
+                                    break;
+                            }
+
+
+                        }
+                    }
+
+                }
+
+                catch (Exception ex)
+                {
+                    Console.WriteLine("An error occurred: " + ex.Message);
+
+                }
+            } while (password != code && t <= 3 && option != 4);
+            Console.WriteLine("Thank you for using our service. Goodbye!");
+
+            */
         }
     }
 }
