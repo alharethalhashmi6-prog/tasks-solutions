@@ -189,7 +189,55 @@ namespace task2_solutions
 
             //----------------------------------------------------------
 
+            /*
+            // task 9
 
+            Console.Write("Pls entre a number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+            int x = 20;
+            do
+            {
+                try
+                {
+                    if (n <= 0)
+                    {
+                        Console.Write("The number must be positive and grater than 0. Please try again: ");
+                        n = Convert.ToInt32(Console.ReadLine());
+                    }
+
+                    else if (n!= x)
+                    {
+                        Console.Write("The number is not valid. Please try again: ");
+                        n = Convert.ToInt32(Console.ReadLine());
+                    }
+
+                    else 
+                    {
+                        Console.WriteLine("Excellent");
+
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                    Console.WriteLine("An error occurred: " + ex.Message);
+                }
+            
+            } while (n != x);
+
+            Console.WriteLine("Excellent you chosed the valid number");
+
+            for (int i =1; i<= x; i++)
+            {
+                sum += i;
+            }
+            Console.WriteLine("The sum of numbers btw 1 and " + x + " is: " + sum);
+
+
+            */
+
+            //----------------------------------------------------------
         }
     }
 }
