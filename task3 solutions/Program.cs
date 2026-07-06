@@ -75,6 +75,31 @@
 
             //--------------------------------------------------------
 
+            /*
+            // task 6
+
+            Console.Write("Enter your password: ");
+            string password = Console.ReadLine();
+
+            bool isLongEnough = password.Length >= 8;
+            bool containsForbiddenWord = password.ToLower().Contains("password");
+
+            if (isLongEnough && !containsForbiddenWord)
+            {
+                Console.WriteLine("Strong password.");
+            }
+            else
+            {
+                Console.WriteLine("Weak password. Reason:");
+                if (!isLongEnough)
+                    Console.WriteLine("- Must be at least 8 characters long.");
+                if (containsForbiddenWord)
+                    Console.WriteLine("- Must not contain the word 'password'.");
+            }
+            */
+
+            //--------------------------------------------------------
+
         }
     }
 }
