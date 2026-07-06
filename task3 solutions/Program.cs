@@ -51,6 +51,30 @@
             */
 
             //--------------------------------------------------------
+
+            /*
+            //  task 5
+
+            Console.Write("Enter your raw exam score: ");
+            double rawScore = double.Parse(Console.ReadLine());
+
+            double roundedScore = Math.Round(rawScore, 0);
+
+            if (roundedScore >= 60)
+            {
+                Console.WriteLine("Rounded Score: " + roundedScore);
+                Console.WriteLine("Result: Pass");
+            }
+            else
+            {
+                Console.WriteLine("Rounded Score: " + roundedScore);
+                Console.WriteLine("Result: Fail");
+            }
+
+            */
+
+            //--------------------------------------------------------
+
         }
     }
 }
