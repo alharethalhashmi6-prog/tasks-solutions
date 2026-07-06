@@ -243,6 +243,33 @@
 
             //--------------------------------------------------------
 
+            /*
+            // task 12
+            try
+            {
+                Console.Write("Enter your date of birth (yyyy-MM-dd): ");
+                DateTime birthDate = DateTime.Parse(Console.ReadLine());
+
+                DateTime today = DateTime.Today;
+
+                int age = today.Year - birthDate.Year;
+
+                if (today.Month < birthDate.Month ||(today.Month == birthDate.Month && today.Day < birthDate.Day))
+                {
+                    age--;
+                }
+
+                DayOfWeek birthWeekday = birthDate.DayOfWeek;
+
+                Console.WriteLine("Your age is: " + age);
+                Console.WriteLine("You were born on a: " + birthWeekday);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Invalid date input: " + ex.Message);
+            }
+            */
+
         }
     }
 }
