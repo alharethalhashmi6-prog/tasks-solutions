@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+           /*
             // task 1 
 
             Console.Write("Enter the first number: ");
@@ -12,8 +13,18 @@
             int y = int.Parse(Console.ReadLine());
             int sub = x - y;
             Console.WriteLine("The positive difference of seconde from first is: " + Math.Abs(sub));
-
+           */
             //--------------------------------------------------------
+
+            /*
+            // task 2 
+
+            Console.Write("Enter a number: ");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine("The square of the number is: " + Math.Pow(num,2)+ " and the square root of the number is: "+ Math.Sqrt(num));
+            */
+
+
 
         }
     }
