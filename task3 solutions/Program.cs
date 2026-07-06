@@ -155,6 +155,24 @@
             */
 
             //--------------------------------------------------------
+
+            /*
+            // task 9
+
+            Console.Write("Enter a decimal number: ");
+            double number = double.Parse(Console.ReadLine());
+
+            double nearest = Math.Round(number, 0);
+            double roundedUp = Math.Ceiling(number);
+            double roundedDown = Math.Floor(number);
+
+            Console.WriteLine("Nearest whole number: " + nearest);
+            Console.WriteLine("Always rounded up (Ceiling): " + roundedUp);
+            Console.WriteLine("Always rounded down (Floor): " + roundedDown);
+
+            */
+
+            //--------------------------------------------------------
         }
     }
 }
