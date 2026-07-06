@@ -36,6 +36,21 @@
             */
 
             //--------------------------------------------------------
+
+            // task 4 
+
+            /*
+            Console.Write("Enter the number of trial days: ");
+            int trialDays = int.Parse(Console.ReadLine());
+
+            DateTime startDate = DateTime.Today;
+            DateTime endDate = startDate.AddDays(trialDays);
+
+            Console.WriteLine("Trial end date: " + endDate.ToString("yyyy-MM-dd"));
+
+            */
+
+            //--------------------------------------------------------
         }
     }
 }
