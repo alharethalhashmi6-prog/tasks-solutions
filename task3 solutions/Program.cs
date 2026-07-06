@@ -173,6 +173,31 @@
             */
 
             //--------------------------------------------------------
+
+            /*
+            // task 10
+
+            Console.Write("Enter a sentence: ");
+            string sentence = Console.ReadLine();
+
+            Console.Write("Enter the word to search for: ");
+            string word = Console.ReadLine();
+
+            int firstPosition = sentence.IndexOf(word);
+            int lastPosition = sentence.LastIndexOf(word);
+
+            if (firstPosition == -1)
+            {
+                Console.WriteLine("Word not found in the sentence.");
+            }
+            else
+            {
+                Console.WriteLine("First occurrence at index: " + firstPosition);
+                Console.WriteLine("Last occurrence at index: " + lastPosition);
+            }
+            */
+
+            //--------------------------------------------------------
         }
     }
 }
