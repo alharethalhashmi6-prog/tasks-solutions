@@ -198,6 +198,51 @@
             */
 
             //--------------------------------------------------------
+
+            /*
+            // task 11
+
+            Random random = new Random();
+            int otp = random.Next(1000, 10000);
+
+            Console.WriteLine("Your OTP code is: " + otp);
+
+            int attempts = 0;
+            bool verified = false;
+
+            while (attempts < 3 && !verified)
+            {
+                try
+                {
+                    Console.Write("Enter the OTP code: ");
+                    int enteredCode = int.Parse(Console.ReadLine());
+
+                    if (enteredCode == otp)
+                    {
+                        verified = true;
+                        Console.WriteLine("Verified");
+                    }
+                    else
+                    {
+                        attempts++;
+                        Console.WriteLine("Incorrect code. Attempts remaining: " + (3 - attempts));
+                    }
+                }
+                catch (Exception ex)
+                {
+                    attempts++;
+                    Console.WriteLine("Invalid input, please enter numbers only. Attempts remaining: " + (3 - attempts));
+                }
+            }
+
+            if (!verified)
+            {
+                Console.WriteLine("Verification Failed");
+            }
+            */
+
+            //--------------------------------------------------------
+
         }
     }
 }
