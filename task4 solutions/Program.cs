@@ -360,7 +360,69 @@
 
         //----------------------------------------------
 
+        /*
+        // task 12
+        static double CalculateAverage(double score1, double score2, double score3)
+        {
+            return (score1 + score2 + score3) / 3;
+        }
 
+        static string GetGradeLetter(double average)
+        {
+            if (average >= 90)
+            {
+                return "A";
+            }
+            else if (average >= 80)
+            {
+                return "B";
+            }
+            else if (average >= 70)
+            {
+                return "C";
+            }
+            else if (average >= 60)
+            {
+                return "D";
+            }
+            else
+            {
+                return "F";
+            }
+        }
+
+        static void PrintReportCard(string studentName, double average, string gradeLetter)
+        {
+            Console.WriteLine("======================");
+            Console.WriteLine("      Report Card      ");
+            Console.WriteLine("======================");
+            Console.WriteLine("Student: " + studentName);
+            Console.WriteLine("Average: " + average);
+            Console.WriteLine("Grade: " + gradeLetter);
+            Console.WriteLine("======================");
+        }
+
+        static void Main()
+        {
+            Console.Write("Enter student's name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter first score: ");
+            double score1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Enter second score: ");
+            double score2 = double.Parse(Console.ReadLine());
+
+            Console.Write("Enter third score: ");
+            double score3 = double.Parse(Console.ReadLine());
+
+            double average = CalculateAverage(score1, score2, score3);
+            string gradeLetter = GetGradeLetter(average);
+
+            PrintReportCard(name, average, gradeLetter);
+        }
+        */
+        
     }
 
 }
