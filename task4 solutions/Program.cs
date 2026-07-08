@@ -169,5 +169,27 @@
 
         //----------------------------------------------
 
+        /*
+        // task 8
+
+        static void Countdown(int start)
+        {
+            for (int i = start; i >= 1; i--)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            Console.Write("Enter a starting number: ");
+            int startNum = int.Parse(Console.ReadLine());
+
+            Countdown(startNum);
+        }
+        */
+
+        //----------------------------------------------
+
     }
 }
