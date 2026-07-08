@@ -221,7 +221,51 @@
 
         //----------------------------------------------
 
+        /*
+        // task 10
 
+        static double CalculateArea(double side)
+        {
+            return side * side;
+        }
 
+        static double CalculateArea(double length, double width)
+        {
+            return length * width;
+        }
+
+        static void Main(string[] args)
+        {
+            Console.Write("Which shape? (square/rectangle): ");
+            string shape = Console.ReadLine().ToLower();
+
+            if (shape == "square")
+            {
+                Console.Write("Enter the side length: ");
+                double side = double.Parse(Console.ReadLine());
+
+                double area = CalculateArea(side);
+                Console.WriteLine("Square area: " + area);
+            }
+            else if (shape == "rectangle")
+            {
+                Console.Write("Enter the length: ");
+                double length = double.Parse(Console.ReadLine());
+
+                Console.Write("Enter the width: ");
+                double width = double.Parse(Console.ReadLine());
+
+                double area = CalculateArea(length, width);
+                Console.WriteLine("Rectangle area: " + area);
+            }
+            else
+            {
+                Console.WriteLine("Invalid shape choice.");
+            }
+        }
+        */
+
+        //----------------------------------------------
     }
+
 }
