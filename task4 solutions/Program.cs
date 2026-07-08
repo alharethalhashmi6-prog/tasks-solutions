@@ -39,7 +39,23 @@
         */
 
         //----------------------------------------------
-        
+
+        /*
+        // task 3
+        static double CelsiusToFahrenheit(double celsius)
+        {
+            return (celsius * 9 / 5) + 32;
+        }
+        static void Main(string[] args)
+        {
+            Console.Write("Enter temperature in Celsius: ");
+            double tempC = double.Parse(Console.ReadLine());
+            double tempF = CelsiusToFahrenheit(tempC);
+            Console.WriteLine("Temperature in Fahrenheit: " + tempF);
+        }
+        */
+
+        //----------------------------------------------
 
     }
 }
