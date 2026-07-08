@@ -74,5 +74,32 @@
 
         //----------------------------------------------
 
+        /*
+        // task 5
+        static bool IsEven(int number)
+        {
+            return number % 2 == 0;
+        }
+
+        static void Main(string[] args)
+        {
+            Console.Write("Enter a number: ");
+            int num = int.Parse(Console.ReadLine());
+
+            bool result = IsEven(num);
+
+            if (result)
+            {
+                Console.WriteLine("Even");
+            }
+            else
+            {
+                Console.WriteLine("Odd");
+            }
+        }
+        */
+
+        //----------------------------------------------
+
     }
 }
