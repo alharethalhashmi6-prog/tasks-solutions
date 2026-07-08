@@ -266,6 +266,101 @@
         */
 
         //----------------------------------------------
+
+        /*
+        // task 11
+        static double Add(double a, double b)
+        {
+            return a + b;
+        }
+
+        static double Subtract(double a, double b)
+        {
+            return a - b;
+        }
+
+        static double MultiplyNumbers(double a, double b)
+        {
+            return a * b;
+        }
+
+        static double DivideNumbers(double a, double b)
+        {
+            try
+            {
+                if (b == 0)
+                {
+                    throw new DivideByZeroException();
+                }
+                return a / b;
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Error: Cannot divide by zero.");
+                return 0;
+            }
+        }
+
+        static void DisplayResult(string operation, double result)
+        {
+            Console.WriteLine("Operation: " + operation);
+            Console.WriteLine("Result: " + result);
+            Console.WriteLine("------------------------");
+        }
+
+        static void Main()
+        {
+            bool exit = false;
+
+            while (!exit)
+            {
+                Console.WriteLine("Choose an operation:");
+                Console.WriteLine("1) Add");
+                Console.WriteLine("2) Subtract");
+                Console.WriteLine("3) Multiply");
+                Console.WriteLine("4) Divide");
+                Console.WriteLine("5) Exit");
+                Console.Write("Your choice: ");
+                string choice = Console.ReadLine();
+
+                if (choice == "5")
+                {
+                    exit = true;
+                    Console.WriteLine("Goodbye!");
+                    continue;
+                }
+
+                Console.Write("Enter first number: ");
+                double num1 = double.Parse(Console.ReadLine());
+
+                Console.Write("Enter second number: ");
+                double num2 = double.Parse(Console.ReadLine());
+
+                switch (choice)
+                {
+                    case "1":
+                        DisplayResult("Addition", Add(num1, num2));
+                        break;
+                    case "2":
+                        DisplayResult("Subtraction", Subtract(num1, num2));
+                        break;
+                    case "3":
+                        DisplayResult("Multiplication", MultiplyNumbers(num1, num2));
+                        break;
+                    case "4":
+                        DisplayResult("Division", DivideNumbers(num1, num2));
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice, please try again.");
+                        break;
+                }
+            }
+        }
+        */
+
+        //----------------------------------------------
+
+
     }
 
 }
