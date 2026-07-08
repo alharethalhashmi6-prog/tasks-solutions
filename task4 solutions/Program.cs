@@ -57,5 +57,22 @@
 
         //----------------------------------------------
 
+        /*
+        // task 4
+
+        static void DisplayMenu()
+        {
+            Console.WriteLine("1) Start");
+            Console.WriteLine("2) Help");
+            Console.WriteLine("3) Exit");
+        }
+        static void Main(string[] args)
+        {
+            DisplayMenu();
+        }
+        */
+
+        //----------------------------------------------
+
     }
 }
