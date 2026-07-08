@@ -2,9 +2,20 @@
 {
     internal class Program
     {
+        /*
+        // task 1 
+
+        static void PrintWelcome(string name)
+        {
+            Console.WriteLine("Welcome, " + name + "!");
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Enter your name: ");
+            string userName = Console.ReadLine();
+
+            PrintWelcome(userName);
         }
+        */
     }
 }
