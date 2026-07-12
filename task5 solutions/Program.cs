@@ -171,8 +171,38 @@
 
             //-------------------------------------------------------
 
+            /*
+            // task 8
+            Stack<string> actions = new Stack<string>();
+
+            Console.WriteLine("Enter actions (type 'stop' to finish):");
+            string action = Console.ReadLine();
+
+            while (action.ToLower() != "stop")
+            {
+                actions.Push(action);
+                action = Console.ReadLine();
+            }
+
+            Console.WriteLine("\nUndoing last 2 actions:");
+            string undo1 = actions.Pop();
+            Console.WriteLine("Undone: " + undo1);
+
+            string undo2 = actions.Pop();
+            Console.WriteLine("Undone: " + undo2);
+
+            Console.WriteLine("\nRemaining actions on stack:");
+            foreach (string remainingAction in actions)
+            {
+                Console.WriteLine("- " + remainingAction);
+
+            }
+            */
+
+            //-------------------------------------------------------
+
+
 
         }
-
     }
 }
