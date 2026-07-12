@@ -201,8 +201,57 @@
 
             //-------------------------------------------------------
 
+            /*
+            // task 9
 
+            static double CalculateAverage(List<int> grades)
+            {
+                int sum = 0;
+                foreach (int grade in grades)
+                {
+                    sum += grade;
+                }
+                return (double)sum / grades.Count;
+            }
+
+            static int FindFirstFailing(List<int> grades)
+            {
+                return grades.Find(x => x < 60);
+            }
+
+            static void Main()
+            {
+                Console.Write("How many grades do you want to enter? ");
+                int count = int.Parse(Console.ReadLine());
+
+                List<int> grades = new List<int>();
+
+                for (int i = 0; i < count; i++)
+                {
+                    Console.Write("Enter grade " + (i + 1) + ": ");
+                    int grade = int.Parse(Console.ReadLine());
+                    grades.Add(grade);
+                }
+
+                double average = CalculateAverage(grades);
+                int firstFailing = FindFirstFailing(grades);
+
+                Console.WriteLine("\nAverage grade: " + average);
+
+                if (firstFailing == 0)
+                {
+                    Console.WriteLine("No failing grades found.");
+                }
+                else
+                {
+                    Console.WriteLine("First failing grade: " + firstFailing);
+                }
+            }
+
+            */
+            //-------------------------------------------------------
 
         }
+
     }
 }
