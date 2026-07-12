@@ -115,6 +115,40 @@
 
             //-------------------------------------------------------
 
+            /*
+            // task 6
+
+            List<string> shoppingList = new List<string>();
+
+            Console.WriteLine("Enter shopping items (type 'done' to finish):");
+            string item = Console.ReadLine();
+
+            while (item.ToLower() != "done")
+            {
+                shoppingList.Add(item);
+                item = Console.ReadLine();
+            }
+
+            Console.WriteLine("\nShopping list before removal:");
+            foreach (string i in shoppingList)
+            {
+                Console.WriteLine("- " + i);
+            }
+
+            Console.Write("\nEnter the item to remove: ");
+            string itemToRemove = Console.ReadLine();
+            shoppingList.Remove(itemToRemove);
+
+            Console.WriteLine("\nShopping list after removal:");
+            foreach (string i in shoppingList)
+            {
+                Console.WriteLine("- " + i);
+            }
+            */
+
+            //-------------------------------------------------------
+
+
         }
 
     }
