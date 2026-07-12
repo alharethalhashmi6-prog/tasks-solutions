@@ -251,7 +251,59 @@
             */
             //-------------------------------------------------------
 
-        }
+            /*
+            // task 10
 
+            static Queue<string> RemoveJob(Queue<string> jobQueue, string jobToRemove)
+            {
+                Queue<string> newQueue = new Queue<string>();
+
+                while (jobQueue.Count > 0)
+                {
+                    string currentJob = jobQueue.Dequeue();
+                    if (currentJob != jobToRemove)
+                    {
+                        newQueue.Enqueue(currentJob);
+                    }
+                }
+
+                return newQueue;
+            }
+
+            static void Main()
+            {
+                Queue<string> printQueue = new Queue<string>();
+
+                Console.WriteLine("Enter print job names (type 'done' to finish):");
+                string job = Console.ReadLine();
+
+                while (job.ToLower() != "done")
+                {
+                    printQueue.Enqueue(job);
+                    job = Console.ReadLine();
+                }
+
+                Console.WriteLine("\nPrint queue BEFORE cancellation:");
+                foreach (string j in printQueue)
+                {
+                    Console.WriteLine("- " + j);
+                }
+
+                Console.Write("\nEnter the job name to cancel: ");
+                string jobToCancel = Console.ReadLine();
+
+                printQueue = RemoveJob(printQueue, jobToCancel);
+
+                Console.WriteLine("\nPrint queue AFTER cancellation:");
+                foreach (string j in printQueue)
+                {
+                    Console.WriteLine("- " + j);
+                }
+            }
+            */
+
+
+        }
     }
+
 }
