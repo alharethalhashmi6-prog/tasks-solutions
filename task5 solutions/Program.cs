@@ -26,7 +26,7 @@
             //-------------------------------------------------------
 
             /*
-            // task 2
+            // task 3
 
                 Stack<string> history = new Stack<string>();
 
@@ -43,6 +43,27 @@
 
             //-------------------------------------------------------
 
+            /*
+            // task 2
+                List<string> todoList = new List<string>();
+
+                for (int i = 0; i < 5; i++)
+                {
+                    Console.Write("Enter task " + (i + 1) + ": ");
+                    string task = Console.ReadLine();
+                    todoList.Add(task);
+                }
+
+                Console.WriteLine("\nYour To-Do List:");
+                int counter = 1;
+                foreach (string task in todoList)
+                {
+                    Console.WriteLine(counter + ". " + task);
+                    counter++;
+                }
+            */
+
+            //-------------------------------------------------------
 
         }
 
