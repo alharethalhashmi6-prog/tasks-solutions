@@ -25,6 +25,23 @@
 
             //-------------------------------------------------------
 
+            /*
+            // task 2
+
+                Stack<string> history = new Stack<string>();
+
+                for (int i = 0; i < 3; i++)
+                {
+                    Console.Write("Enter website URL " + (i + 1) + ": ");
+                    string url = Console.ReadLine();
+                    history.Push(url);
+                }
+
+                string previousPage = history.Pop();
+                Console.WriteLine("\nYou pressed 'Back'. You landed on: " + previousPage);
+            */
+
+            //-------------------------------------------------------
 
 
         }
